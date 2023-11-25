@@ -1,0 +1,43 @@
+How to Install Terraform on Wind
+ows
+Installing Terraform on Windows requires you to download the correct Terraform package, unpack, and execute it via the CLI. Follow the instructions below to ensure you do not miss any steps.
+
+Download Terraform File for Windows
+To find the latest version of Terraform for Windows:
+
+1. Browse to the Download Terraform page.
+
+2. Select the Windows tab under the Operating System heading. The latest version is preselected.
+
+Windows tab to download Terraform
+3. Choose the binary to download. Select 386 for 32-bit systems or AMD64 for 64-bit systems. Choose the download location for the zip file if the download does not start automatically.
+
+4. Unzip the downloaded file. For example, use the C:\terraform path. Remember this location so you can add the path to the environment variables.
+
+Add Terraform Path to System Environment Variables
+To add the Terraform executable to the system's global path:
+
+1. Open the start menu, start typing environment and click Edit system environment variables. The System Properties window opens.  
+
+2. Click the Environment Variables... button.
+
+Windows Environment Variables button
+3. Select the Path variable in the System variables section to add terraform for all accounts. Alternatively, select Path in the User variables section to add terraform for the currently logged-in user only. Click Edit once you select a Path.
+
+Select the Path variable in the System variables.
+4. Click New in the edit window and enter the location of the Terraform folder.
+
+Enter the new location of the Terraform folder. 
+5. Click OK on all windows to apply the changes.
+
+Verify Windows Terraform Installation
+To check the Terraform global path configuration:
+
+1. Open a new command-prompt window.
+
+2. Enter the command to check the Terraform version: terraform -version
+
+terraform -version
+
+Command Prompt Windows checking the Terraform version
+The output shows the Terraform version you downloaded and installed on your Windows machine.
