@@ -1,0 +1,2 @@
+# terraformsetup
+terraform initializing process
